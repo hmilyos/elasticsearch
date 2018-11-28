@@ -1,4 +1,4 @@
-package com.hmily.elasticsearch.searchhouse.controller;
+package com.hmily.elasticsearch.searchhouse.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -12,4 +12,7 @@ public class HomeController {
         model.addAttribute("name", "hmily");
         return "index";
     }
+
+
+
 }

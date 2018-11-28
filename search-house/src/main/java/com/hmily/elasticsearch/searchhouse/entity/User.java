@@ -54,6 +54,7 @@ public class User implements UserDetails {
         this.name = name;
     }
 
+//    给 security 权限集合
     @Transient
     private List<GrantedAuthority> authorityList;
 
